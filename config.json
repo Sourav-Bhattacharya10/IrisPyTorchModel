@@ -1,0 +1,165 @@
+{
+    "csv" :
+    {
+        "files" :
+        [
+            {
+                "file" : "./Iris.csv"
+            },
+            {
+                "file" : ""
+            }
+        ]
+    },
+    "tsv" :
+    {
+        "files" :
+        [
+            {
+                "file" : "./test.tsv"
+            },
+            {
+                "file" : ""
+            }
+        ]
+    },
+    "excel" :
+    {
+        "files" :
+        [
+            {
+                "file" : "./test.xlsx"
+            },
+            {
+                "file" : ""
+            }
+        ]
+    },
+    "json" :
+    {
+        "files" :
+        [
+            {
+                "file" : "./test.json"
+            },
+            {
+                "file" : ""
+            }
+        ]
+    },
+    "sqldatabase" :
+    {
+        "connections" :
+        [
+            {
+                "servername" : "",
+                "username" : "",
+                "userpassword" : "",
+                "databasename" : "",
+                "queries" :
+                [
+                    {
+                        "query" : ""
+                    },
+                    {
+                        "query" : ""
+                    }
+                ]
+            }
+        ]
+    },
+    "nosqldatabase" :
+    {
+        "connections" :
+        [
+            {
+                "connectionurl" : "",
+                "databasename" : "",
+                "collectionname" : "",
+                "queries" :
+                [
+                    {
+                        "find" : "{\"Auto\":1, \"weatherConditions\":{\"$ne\": null}}",
+                        "project" : "{ \"_id\": 0}",
+                        "sort" : "{}",
+                        "limit" : 0
+                    },
+                    {
+                        "find" : "{\"Auto\":1, \"weatherConditions\":{\"$ne\": null}}",
+                        "project" : "{ \"_id\": 0}",
+                        "sort" : "{ \"_id\": -1}",
+                        "limit" : 200
+                    },
+                    {
+                        "find" : "{}",
+                        "project" : "{ \"_id\": 0}",
+                        "sort" : "{}",
+                        "limit" : 0
+                    },
+                    {
+                        "find" : "{}",
+                        "project" : "{ \"_id\": 0}",
+                        "sort" : "{ \"_id\": -1}",
+                        "limit" : 500
+                    }
+                ]
+            },
+            {
+                "connectionurl" : "",
+                "databasename" : "",
+                "collectionname" : "",
+                "queries" :
+                [
+                    {
+                        "find" : "{}",
+                        "project" : "{ \"_id\": 0}",
+                        "sort" : "{}",
+                        "limit" : 0
+                    },
+                    {
+                        "find" : "",
+                        "project" : "",
+                        "sort" : "{}",
+                        "limit" : 0
+                    }
+                ]
+            }
+        ]
+    },
+    "restapi" :
+    {
+        "endpoints" :
+        [
+            {
+                "url" : "https://jsonplaceholder.typicode.com/todos",
+                "method" : "GET",
+                "headers" :
+                [
+                    {
+                        "Content-Type" : "application/json"
+                    },
+                    {
+                        "Accept" : "application/json"
+                    }
+                ],
+                "body" : "",
+                "params" :
+                [
+                    {
+                        "p1" : "x"
+                    },
+                    {
+                        "p2" : "y"
+                    }
+                ]
+            }
+        ]
+    },
+    "logfilepath" : "./logfile.log",
+    "modelfolder":"./savedmodelfolder/",
+    "scalerfilename" : "ModelScalerObject.joblib",
+    "savedmodelfilename" : "IrisModel.h5",
+    "metricfilepath" : "metric.json",
+    "dictuniquevaluefilepath": "dictUniqueValues.joblib",
+    "mlpipelinepath" : "C:\\Users\\RazrLab_Sourav\\Documents\\Jupyter_Notebooks\\Machine_Learning_Projects\\PyTorch\\IrisClassificationTest"
+}

@@ -1,0 +1,9 @@
+xlrd
+numpy
+pandas
+pymssql
+pymongo
+scikit-learn
+torch
+requests
+matplotlib
